@@ -15,6 +15,7 @@ module.exports = function (homebridge) {
 	exportedTypes.AccessoryBase = require('./lib/accessory-base')(exportedTypes);
 	exportedTypes.HubAccessoryBase = require('./lib/hub-accessory-base')(exportedTypes);
 	exportedTypes.ActivityAccessory = require('./lib/activity-accessory')(exportedTypes);
+  	exportedTypes.CommandAccessory = require('./lib/command-accessory')(exportedTypes);
 	exportedTypes.Hub = require('./lib/hub')(exportedTypes);
 	exportedTypes.HomePlatform = require('./lib/home-platform')(exportedTypes);
 
